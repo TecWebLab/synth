@@ -119,4 +119,19 @@ $ docker exec my_synth tar -zcvf public/my_app.tar.gz applications/my_app
 
   [http://192.168.99.100:3000/my_app.tar.gz](http://192.168.99.100:3000/my_app.tar.gz)
 
+Import your data from external file
+===================================
 
+#### 1) Run Synth
+    Create and application,e.g., *my_app*. Do not activate it (i.e., leave it as "false" in the apps menu).
+    
+#### 2) Shutdown and close Synth
+
+#### 3) Put your RDFXML formatted file (e.g., my_app.owl, as exported from Protegé) with the data in the Synth folder/directory.
+
+#### 4) Open a command prompt/shell window, and change the active diretory to Synth's home directory
+    Run the following command
+    
+    ``` bash
+    jruby --1.9 -S script/import my_app.owl model=my_app format=rdfxml
+    ```
