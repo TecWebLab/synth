@@ -132,6 +132,7 @@ Import your data from external file
 #### 4) Open a command prompt/shell window, and change the active diretory to Synth's home directory
     Run the following command
     
-    ``` bash
+``` bash
+$ 
     jruby --1.9 -S script/import my_app.owl model=my_app format=rdfxml
-    ```
+```
