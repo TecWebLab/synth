@@ -11,10 +11,9 @@ hypermedia application described by these models. Synth also provides an authori
 that facilitates the adding and editing of these models through a GUI that can run on 
 any web browser. 
 
-For more details see this publication: http://www.tecweb.inf.puc-rio.br/navigation/context/o_551b334e@0?p=InProceedings
-
-Synth was built as part of the master thesis dissertation in Informatics of 
-Mauricio Henrique de Souza Bomfim, at PUC-Rio.
+For more details see this publication: https://link.springer.com/chapter/10.1007/978-3-642-22233-7_9 (full text download available).
+Here is a video of a demo of Synth: https://www.researchgate.net/profile/Daniel_Schwabe/publication/325654019_Synth_Demo_video/data/5b1ac2ee45851587f29d268d/Demo-App-ICWE-2011.mov
+Synth was built as part of the master thesis dissertation in Informatics of  Mauricio Henrique de Souza Bomfim, at PUC-Rio.
 
 It is in a very early stage; please be advised you may find some bugs when using Synth. 
 Please report if you find any bug.
